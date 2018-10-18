@@ -1,0 +1,48 @@
+.container-intro{
+  background-image: url('/img/aso6syjzgps-hannah-wei.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center center;
+}
+.wrapper-auth{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align:center;
+}
+.wrapper-auth:before{
+  content: "";
+  display: inline-block;
+  height:100%;
+  width:0;
+  vertical-align:middle;
+}
+.workhall{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.workhall__logo{
+  width: 161px;
+  height: 119px;
+  margin-bottom: 29px;
+}
+.workhall__link{
+  display: block;
+  text-decoration: none;
+  font-family: 'GothamPro';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  color: #ec1e79;
+  border: 3px solid #ec1e79;
+  padding: 11px 20px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.workhall__link:hover{
+  color: #fff;
+  background-color: #ec1e79;
+}

@@ -1,0 +1,21 @@
+/* layout setups */
+@import url('./layout/normalize.css');
+@import url('./layout/fonts.css');
+@import url('./layout/base.css');
+/* sections */
+@import url('./sections/intro.css');
+@import url('./sections/header.css');
+@import url('./sections/sidebar.css');
+@import url('./sections/breadcrumbs.css');
+@import url('./sections/features.css');
+@import url('./sections/reviews.css');
+@import url('./sections/prices.css');
+@import url('./sections/main-contents.css');
+@import url('./sections/switcher.css');
+@import url('./sections/footer.css');
+
+
+
+
+
+

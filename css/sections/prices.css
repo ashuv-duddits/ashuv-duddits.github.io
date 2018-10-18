@@ -1,0 +1,140 @@
+.section-head_prices{
+  margin-bottom: 43px;
+}
+.prices__list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -55px;
+}
+.prices__item{
+  width: 250px;
+  margin-left: 55px;
+  margin-bottom: 48px;
+  font-family: 'GothamPro';
+  text-align: center;
+}
+.prices__link{
+  display: block;
+  text-decoration: none;
+}
+.prices__link:hover .prices__wrap:before{
+  opacity: 0.15;
+}
+.prices__wrap{
+  width: 250px;
+  height: 153px;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 30px;
+}
+.prices__wrap:before{
+  content:"";
+  background-color: #27273e;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.85;
+  transition: all 0.5s;
+}
+.prices__img-title{
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  color: #5dd1f8;
+  text-transform: uppercase;
+  width: 95%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.prices__img-title-vip{
+  color: #ec1e79;
+}
+.prices__img{
+ visibility: hidden;
+}
+.prices__title{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  color: #221f1f;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.prices__desc{
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  color: #221f1f;
+  line-height: 1.5;
+}
+
+.section-head_partners{
+  margin-bottom: 42px;
+}
+.partners__list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -108px;
+}
+.partners__item{
+  width: 160px;
+  height: 62px;
+  margin-left: 108px;
+  margin-bottom: 52px;
+  background-image: url('/img/prices-icons.png');
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.logo-1 {
+  width: 160px;
+  height: 41px;
+  background-position: -50px -534px;
+}
+.logo-1:hover{
+  background-position: -50px -50px;
+}
+.logo-2 {
+  width: 123px;
+  height: 62px;
+  background-position: -533px -50px;
+}
+.logo-2:hover{
+  background-position: -310px -50px;
+}
+.logo-3 {
+  width: 130px;
+  height: 62px;
+  background-position: -50px -212px;
+}
+.logo-3:hover{
+  background-position: -50px -212px;
+}
+.logo-4 {
+  width: 160px;
+  height: 60px;
+  background-position: -540px -212px;
+}
+.logo-4:hover{
+  background-position: -280px -212px;
+}
+.logo-5 {
+  width: 137px;
+  height: 62px;
+  background-position: -310px -534px;
+}
+.logo-5:hover{
+  background-position: -280px -372px;
+}
+.logo-6 {
+  width: 51px;
+  height: 62px;
+  background-position: -668px -372px;
+}
+.logo-6:hover{
+  background-position: -517px -372px;
+}

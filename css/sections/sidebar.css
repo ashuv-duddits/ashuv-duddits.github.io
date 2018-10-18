@@ -1,0 +1,64 @@
+.container-page {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.sidebar {
+width: 180px;
+}
+.content{
+  width: 880px;
+}
+.menu__item {
+  margin-bottom: 38px;
+}
+
+.menu__item-link {
+  text-transform: uppercase;
+  font-family: 'GothamPro';
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  color: #ec1e79;
+}
+.menu__item-link:before{
+  content:"";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 18px;
+  background-image: url(/img/spritesheet.png);
+  background-repeat: no-repeat;
+}
+.menu__item-link_main:before{
+  width: 17px;
+  height: 15px;
+  background-position: -32px -33px;
+}
+.menu__item-link_feed:before{
+  width: 20px;
+  height: 18px;
+  background-position: -35px -5px;
+}
+.menu__item-link_wallet:before{
+  width: 19px;
+  height: 16px;
+  background-position: -65px -5px;
+}
+.menu__item_active .menu__item-link_main:before, .menu__item-link_main:hover:before{
+  background-position: -5px -33px;
+}
+.menu__item_active .menu__item-link_feed:before, .menu__item-link_feed:hover:before{
+  background-position: -5px -5px;
+}
+.menu__item_active .menu__item-link_wallet:before, .menu__item-link_wallet:hover:before{
+  background-position: -65px -31px;
+}
+.menu__item_active .menu__item-link, .menu__item-link:hover{
+  color: #221f1f;
+}
+
+.menu__item-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+

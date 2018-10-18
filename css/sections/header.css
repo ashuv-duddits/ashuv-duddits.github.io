@@ -1,0 +1,35 @@
+.header {
+  background-color: #27273e;
+  margin-bottom: 67px;
+}
+
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 76px;
+}
+
+.logo__link {
+  display: block;
+}
+
+.contacts__tel {
+  font-family: 'GothamPro';
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contacts__schedule {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: underline;
+  color: #ec1e79;
+  opacity: 0.7;
+  text-align: right;
+}
