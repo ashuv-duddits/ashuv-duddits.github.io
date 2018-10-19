@@ -19,13 +19,20 @@
         <div class="container">
           <div class="header__main">
             <div class="logo">
-              <a href="/" class="logo__link">
+              <a href="main.html" class="logo__link">
                 <img src="/img/logo-fig.png" alt="Логотип" class="logo__img">
               </a>
             </div>
             <address class="contacts">
               <a href="tel:88000039210" class="contacts__tel">8 (800) 00-392-10</a>
-              <div class="contacts__schedule">График работы</div>
+              <div class="contacts__schedule-wrap">
+                <a class="contacts__schedule">График работы</a>
+                <ul class="contacts__dropdown">
+                  <li class="contacts__dropdown-item contacts__dropdown-item_red">пн-вс: 09:00-20:00</li>
+                  <li class="contacts__dropdown-item">обед: 14:00-14:30</li>
+                  <div class="triangle"></div>
+                </ul>
+              </div>
             </address>
           </div>
         </div>
@@ -36,7 +43,7 @@
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="/" class="menu__item-link menu__item-link_main">
+                  <a href="main.html" class="menu__item-link menu__item-link_main">
                     <span class="menu__item-text">Главная</span>
                   </a>
                 </li>
@@ -57,7 +64,7 @@
             <nav class="breadcrumbs">
               <ul class="breadcrumbs__list">
                 <li class="breadcrumbs__item">
-                  <a href="/" class="breadcrumbs__link">Главная</a>
+                  <a href="main.html" class="breadcrumbs__link">Главная</a>
                 </li>
                 <li class="breadcrumbs__item">
                   <a class="breadcrumbs__link breadcrumbs__link_active">Отзывы</a>
@@ -159,12 +166,24 @@
               <section class="partners">
                 <h2 class="section-head section-head_partners">Партнеры</h2>
                 <ul class="partners__list">
-                  <li class="partners__item logo-1"></li>
-                  <li class="partners__item logo-2"></li>
-                  <li class="partners__item logo-3"></li>
-                  <li class="partners__item logo-4"></li>
-                  <li class="partners__item logo-5"></li>
-                  <li class="partners__item logo-6"></li>
+                  <li class="partners__item">
+                    <a href="#" class="partners__link logo-1"></a>
+                  </li>
+                  <li class="partners__item">
+                    <a href="#" class="partners__link logo-2"></a>
+                  </li>
+                  <li class="partners__item">
+                    <a href="#" class="partners__link logo-3"></a>
+                  </li>
+                  <li class="partners__item">
+                    <a href="#" class="partners__link logo-4"></a>
+                  </li>
+                  <li class="partners__item">
+                    <a href="#" class="partners__link logo-5"></a>
+                  </li>
+                  <li class="partners__item">
+                    <a href="#" class="partners__link logo-6"></a>
+                  </li>
                 </ul>
               </section>
             </main>
@@ -179,7 +198,7 @@
           <span class="bold-text">Шувалов Александр</span>
         </div>
         <div class="logo">
-          <a href="/" class="logo__link">
+          <a href="main" class="logo__link">
             <img src="/img/logo-fig.png" alt="Логотип" class="logo__img">
           </a>
         </div>

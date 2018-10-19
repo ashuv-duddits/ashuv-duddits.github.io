@@ -14,6 +14,10 @@
   display: block;
 }
 
+.contacts {
+  position: relative;
+}
+
 .contacts__tel {
   font-family: 'GothamPro';
   font-size: 21px;
@@ -32,4 +36,60 @@
   color: #ec1e79;
   opacity: 0.7;
   text-align: right;
+  display: block;
+  cursor: pointer;
+}
+
+.contacts__schedule:hover {
+  text-decoration: none;
+}
+
+.contacts__dropdown {
+  padding: 13px 10px;
+  box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  right: -9999px;
+  font-family: 'GothamPro';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  color: #221f1f;
+  border-radius: 2px;
+  z-index: 10;
+  margin-top: 20px;
+}
+.contacts__dropdown:before{
+  content:"";
+  display: block;
+  height: 25px;
+  left: 0;
+  right: 0;
+  top: -24px;
+  position: absolute;
+}
+
+.contacts__schedule-wrap:hover .contacts__dropdown{
+  right: 0;
+}
+.triangle {
+  width: 20px;
+  height: 20px;
+  box-shadow: -3px -3px 10px -4px rgba(23, 59, 117, 0.55);
+  bottom: 100%;
+  position: absolute;
+  transform: rotate(45deg);
+  margin-bottom: -10px;
+  right: 6px;
+  background-color: #fff;
+}
+
+.contacts__dropdown-item{
+  position: relative;
+  z-index: 5;
+}
+.contacts__dropdown-item_red {
+  font-weight: normal;
+  color: #ec1e79;
 }

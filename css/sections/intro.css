@@ -1,34 +1,30 @@
-.container-intro{
-  background-image: url('/img/aso6syjzgps-hannah-wei.jpg');
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-position: center center;
+.wrap{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/img/Background.jpg') center center /cover no-repeat;
 }
+
 .wrapper-auth{
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align:center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
-.wrapper-auth:before{
-  content: "";
-  display: inline-block;
-  height:100%;
-  width:0;
-  vertical-align:middle;
-}
+
 .workhall{
-  display: inline-block;
-  vertical-align: middle;
+  text-align: center;
+  animation: anim 0.5s ease-in-out;
+  animation-delay: 1s;
 }
 
 .workhall__logo{
-  width: 161px;
-  height: 119px;
   margin-bottom: 29px;
+  display: inline-block;
 }
+
 .workhall__link{
   display: block;
   text-decoration: none;
@@ -38,11 +34,30 @@
   font-style: normal;
   color: #ec1e79;
   border: 3px solid #ec1e79;
-  padding: 11px 20px;
+  padding: 12px 20px;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+  transition: all 0.2s;
 }
 .workhall__link:hover{
   color: #fff;
   background-color: #ec1e79;
+}
+
+
+@keyframes anim{
+  0% {
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1) rotate(-10deg);
+  }
+  70% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

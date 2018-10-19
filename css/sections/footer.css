@@ -43,7 +43,7 @@
   width: 20px;
   border-radius: 50%;
   background-color: #fff;
- 
+  transition: all 0.2s;
 }
 
 .footer__socials-item:hover {
@@ -55,6 +55,7 @@
   height: 100%;
   position: relative;
 }
+
 .footer__socials-icon{
   position: absolute;
   left: 50%;

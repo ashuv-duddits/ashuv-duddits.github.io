@@ -49,6 +49,10 @@
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  transition: all 0.1s;
+}
+.switcher__paginator-link:hover{
+  color: #ec1e79;
 }
 
 .switcher__paginator-item_active {
