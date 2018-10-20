@@ -84,9 +84,12 @@
 .reviews__name-input {
   width: 270px;
   padding: 16px 11px;
-  border: none;
+  outline: none;
+  border: 1px solid transparent;
 }
-
+.reviews__name-input:focus{
+  border-color: #ec1e79;
+}
 .reviews__name {
   margin-right: 24px;
 }
@@ -95,11 +98,14 @@
   width: 100%;
   height: 90px;
   border-radius: 5px;
-  border-color: #ec1e79;
   padding: 10px;
   resize: none;
+  outline: none;
+  border: 1px solid transparent;
 }
-
+.reviews__textarea:focus{
+  border-color: #ec1e79;
+}
 .reviews__text-form {
   margin-bottom: 20px;
 }

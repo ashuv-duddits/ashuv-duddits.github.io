@@ -89,10 +89,14 @@
   display: block;
   width: 160px;
   height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partners__icon{
   background-image: url('/img/prices-icons.png');
   background-repeat: no-repeat;
 }
-
 .logo-1 {
   width: 160px;
   height: 41px;
